@@ -14,7 +14,7 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=pmarchenkoucode.usof-backend-rest-api)
 
 
-# Usof-Backend-REST-API
+# Usof-Backend-REST-API :black_square_button: Still in development!    
 StackOverflow REST API Clone
 
 ---
@@ -29,7 +29,7 @@ StackOverflow REST API Clone
   <img src="https://github.com/devicons/devicon/blob/master/icons/mocha/mocha-plain.svg" alt="Mocha" width="40" height="40"/>&nbsp;
 </div>
 
-### ROUTERS :
+### ROUTERS : :black_square_button: Still in development!
   #### Authentication module: :white_check_mark: Это уже сделано
     - POST: /api/auth/register - registration of a new user, required parameters are
     [login, password, password confirmation, email]
