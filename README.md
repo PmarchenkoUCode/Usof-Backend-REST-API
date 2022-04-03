@@ -9,8 +9,9 @@
   <a href="https://www.instagram.com/muilco/">
     <img src="https://img.shields.io/badge/Instagram-yellow?style=for-the-badge&logo=youtube&logoColor=white" alt="Instagram Badge"/>
   </a>
-  ![](https://visitor-badge.glitch.me/badge?page_id=pmarchenkoucode.pmarchenkoucode)
 </div>
+
+![](https://visitor-badge.glitch.me/badge?page_id=pmarchenkoucode.usof-backend-rest-api)
 
 
 # Usof-Backend-REST-API
