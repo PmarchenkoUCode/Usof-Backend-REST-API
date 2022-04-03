@@ -23,9 +23,9 @@ class connection {
             connectionLimit : 10,
             host        : process.env.DB_HOST || 'localhost',
             port        : process.env.DB_PORT || 3306,
-            user        : process.env.DB_USER || 'pmarchenko',
-            password    : process.env.DB_PASSWORD || '40tefavi',
-            database    : process.env.DB_DATABASE || 'usof'
+            user        : process.env.DB_USER || 'NAME',
+            password    : process.env.DB_PASSWORD || 'PASSWORD',
+            database    : process.env.DB_DATABASE || 'NAME'
         });
     }
 
