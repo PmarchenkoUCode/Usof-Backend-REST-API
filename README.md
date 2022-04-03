@@ -127,7 +127,8 @@ StackOverflow REST API Clone
   ### Nodemailer configuration - https://ethereal.email/create
   
 ```javascript
-  const transporter = nodemailer.createTransport({
+// Example
+const transporter = nodemailer.createTransport({
     host: 'smtp.ethereal.email',
     port: 587,
     auth: {
