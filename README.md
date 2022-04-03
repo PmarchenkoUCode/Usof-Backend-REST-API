@@ -125,7 +125,8 @@ StackOverflow REST API Clone
     
   ## In authControllers.js file: resetPassword: NodeMailer is used to send email.
   ### Nodemailer configuration - https://ethereal.email/create
-```javascrip 
+  
+```javascript
   const transporter = nodemailer.createTransport({
     host: 'smtp.ethereal.email',
     port: 587,
