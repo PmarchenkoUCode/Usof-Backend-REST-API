@@ -123,4 +123,16 @@ StackOverflow REST API Clone
 
     SECRET = javainuse-secret-key
     
-    
+  ## In authControllers.js file: resetPassword: NodeMailer is used to send email.
+  ### Nodemailer configuration - https://ethereal.email/create
+  ```{javascrip} {
+      const transporter = nodemailer.createTransport({
+        host: 'smtp.ethereal.email',
+        port: 587,
+        auth: {
+            user: 'hfiouwpdfe7lo5gk@ethereal.email',
+            pass: 'uE5Mky73wRV2brzKKM'
+        }
+    });```
+  }
+  
