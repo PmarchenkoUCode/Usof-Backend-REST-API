@@ -30,6 +30,17 @@ StackOverflow REST API Clone
 </div>
 
 ### ROUTERS :
-#### Authentication module:
-- POST - /api/auth/register - registration of a new user, required parameters are[login, password, password confirmation, email]
-- POST - /api/auth/login- log in user, required parameters are [login, email,password]. Only users with a confirmed email can sign in
+  #### Authentication module:
+    - POST - /api/auth/register - registration of a new user, required parameters are[login, password, password confirmation, email]
+    - POST - /api/auth/login- log in user, required parameters are [login, email,password]. Only users with a confirmed email can sign in
+    - POST - /api/auth/logout- log out authorized user
+    - POST - /api/auth/password-reset- send a reset link to user email, requiredparameter is [email]
+    - POST - /api/auth/password-reset/<confirm_token>- confirm new password with atoken from email, required parameter is a [new password]
+    
+   #### User module:
+    - GET - /api/users- get all users
+    - GET - /api/users/<user_id>- get specified user data
+    - POST - /api/users- create a new user, required parameters are [login, password,password confirmation, email, role]. This feature must be accessible only foradmins
+    - PATCH - /api/users/avatar- upload user avatar
+    - PATCH - /api/users/<user_id>- update user data
+    - DELETE - /api/users/<user_id>- delete user
