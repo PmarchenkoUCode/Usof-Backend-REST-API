@@ -110,3 +110,17 @@ StackOverflow REST API Clone
     – DELETE: /api/comments/<comment_id>/like- delete a like under a comment
     
     
+## Project setup:
+  -Create .env file:
+    PORT = 3000
+    HOST = 127.0.0.1
+
+    DB_HOST = localhost
+    DB_USER = name
+    DB_PASSWORD = password
+    DB_DATABASE = name
+    DB_PORT = 3306
+
+    SECRET = javainuse-secret-key
+    
+    
