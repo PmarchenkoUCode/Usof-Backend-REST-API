@@ -31,5 +31,5 @@ StackOverflow REST API Clone
 
 ### ROUTERS :
 #### Authentication module:
-**POST - /api/auth/register - registration of a new user, required parameters are[login, password, password confirmation, email]**&nbsp;
-**POST - /api/auth/login- log in user, required parameters are [login, email,password]. Only users with a confirmed email can sign in**
+- POST - /api/auth/register - registration of a new user, required parameters are[login, password, password confirmation, email]
+- POST - /api/auth/login- log in user, required parameters are [login, email,password]. Only users with a confirmed email can sign in
