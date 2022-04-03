@@ -29,7 +29,7 @@ StackOverflow REST API Clone
   <img src="https://github.com/devicons/devicon/blob/master/icons/mocha/mocha-plain.svg" alt="Mocha" width="40" height="40"/>&nbsp;
 </div>
 
-### ROUTERS :
+### ROUTERS : :white_check_mark: Это уже сделано
   #### Authentication module:
     - POST - /api/auth/register - registration of a new user, required parameters are[login, password, password confirmation, email]
     - POST - /api/auth/login- log in user, required parameters are [login, email,password]. Only users with a confirmed email can sign in
@@ -37,7 +37,7 @@ StackOverflow REST API Clone
     - POST - /api/auth/password-reset- send a reset link to user email, requiredparameter is [email]
     - POST - /api/auth/password-reset/<confirm_token>- confirm new password with atoken from email, required parameter is a [new password]
     
-   #### User module:
+   #### User module: :white_check_mark: Это уже сделано
     - GET - /api/users- get all users
     - GET - /api/users/<user_id>- get specified user data
     - POST - /api/users- create a new user, required parameters are [login, password,password confirmation, email, role]. This feature must be accessible only foradmins
