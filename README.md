@@ -41,7 +41,8 @@ StackOverflow REST API Clone
 
     - POST: /api/auth/password-reset- send a reset link to user email, requiredparameter is [email]
 
-    - POST: /api/auth/password-reset/<confirm_token>- confirm new password with atoken from email, required parameter is a [new password]
+    - POST: /api/auth/password-reset/<confirm_token>- confirm new password with atoken from email, 
+    required parameter is a [new password]
     
    #### User module: :white_check_mark: Это уже сделано
     - GET: /api/users- get all users
@@ -94,7 +95,18 @@ StackOverflow REST API Clone
     - PATCH: /api/categories/<category_id>- update specified category data
     
     - DELETE: /api/categories/<category_id>- delete a category
+  
+  #### Comments module: :white_check_mark: Это уже сделано
+    – GET: /api/comments/<comment_id>- get specified comment data
     
+    – GET: /api/comments/<comment_id>/like- get all likes under the specifiedcomment
     
+    – POST: /api/comments/<comment_id>/like- create a new like under a comment
+    
+    – PATCH: /api/comments/<comment_id>- update specified comment data
+    
+    – DELETE: /api/comments/<comment_id>- delete a comment
+    
+    – DELETE: /api/comments/<comment_id>/like- delete a like under a comment
     
     
