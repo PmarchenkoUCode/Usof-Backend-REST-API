@@ -42,9 +42,9 @@ const accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'),
 const pool = mysql.createPool({ // create a connection pool to the database
     host        : process.env.DB_HOST || 'localhost',
     port        : process.env.DB_PORT || 3306,
-    user        : process.env.DB_USER || 'pmarchenko',
-    password    : process.env.DB_PASSWORD || '40tefavi',
-    database    : process.env.DB_DATABASE || 'usof'
+    user        : process.env.DB_USER || 'NAME',
+    password    : process.env.DB_PASSWORD || 'PASSWORD',
+    database    : process.env.DB_DATABASE || 'NAME'
 });
 
 const sessionStore = new MySQLStore({ // create a new MySQLStore instance
