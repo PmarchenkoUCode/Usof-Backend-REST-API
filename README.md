@@ -112,9 +112,9 @@ StackOverflow REST API Clone
     
 ## Project setup:
   -Create .env file:
+  
     PORT = 3000
     HOST = 127.0.0.1
-
     DB_HOST = localhost
     DB_USER = name
     DB_PASSWORD = password
