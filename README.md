@@ -31,24 +31,26 @@ StackOverflow REST API Clone
 
 ### ROUTERS :
   #### Authentication module: :white_check_mark: Это уже сделано
-  - POST - /api/auth/register - registration of a new user, required parameters are
-  [login, password, password confirmation, email]
+    - POST - /api/auth/register - registration of a new user, required parameters are
+    [login, password, password confirmation, email]
 
-  - POST - /api/auth/login- log in user, required parameters are [login, email,password]. 
-  Only users with a confirmed email can sign in
+    - POST - /api/auth/login- log in user, required parameters are [login, email,password]. 
+    Only users with a confirmed email can sign in
 
-  - POST - /api/auth/logout- log out authorized user
+    - POST - /api/auth/logout- log out authorized user
 
-  - POST - /api/auth/password-reset- send a reset link to user email, requiredparameter is [email]
+    - POST - /api/auth/password-reset- send a reset link to user email, requiredparameter is [email]
 
-  - POST - /api/auth/password-reset/<confirm_token>- confirm new password with atoken from email, required parameter is a [new password]
+    - POST - /api/auth/password-reset/<confirm_token>- confirm new password with atoken from email, required parameter is a [new password]
     
    #### User module: :white_check_mark: Это уже сделано
     - GET - /api/users- get all users
     
     - GET - /api/users/<user_id>- get specified user data
     
-    - POST - /api/users- create a new user, required parameters are [login, password,password confirmation, email, role]. This feature must be accessible only foradmins
+    - POST - /api/users- create a new user, required parameters are 
+    [login, password,password confirmation, email, role]. This feature must be accessible only foradmins
+    
     - PATCH - /api/users/avatar- upload user avatar
     
     - PATCH - /api/users/<user_id>- update user data
@@ -57,7 +59,9 @@ StackOverflow REST API Clone
     
    #### Post module: :white_check_mark: Это уже сделано
     - GET - /api/posts - get all posts.This endpoint doesn't require any role, it ispublic.
-    
     If there are too many posts, you must implement pagination. Page size isup to you
+    
     - GET - /api/posts/<post_id>- get specified post data.Endpoint is public
+    
+    – GET - /api/posts/<post_id>/comments- get all comments for the specified post.Endpoint is public
     
