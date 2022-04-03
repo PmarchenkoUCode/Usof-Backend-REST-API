@@ -46,6 +46,6 @@ StackOverflow REST API Clone
     - DELETE - /api/users/<user_id>- delete user
     
    #### Post module:
-    - GET - /api/posts- get all posts.This endpoint doesn't require any role, it ispublic. 
+    - `GET - /api/posts` - get all posts.This endpoint doesn't require any role, it ispublic. 
     If there are too many posts, you must implement pagination. Page size isup to you
     
