@@ -28,3 +28,7 @@ StackOverflow REST API Clone
   <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/mocha/mocha-plain.svg" alt="Mocha" width="40" height="40"/>&nbsp;
 </div>
+
+### ROUTERS :
+#### Authentication module:
+##### POST - /api/auth/register - registration of a new user, required parameters are[login, password, password confirmation, email]
