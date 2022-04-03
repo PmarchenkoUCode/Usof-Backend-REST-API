@@ -31,16 +31,7 @@ StackOverflow REST API Clone
 
 ### ROUTERS : :white_check_mark: Это уже сделано
   #### Authentication module:
-|   requests    |     Routers     |  Description  |
-|:------------- |:---------------:| -------------:|
-|     POST      |                 |
-|     POST      |                 |
-|     POST      |                 |
-|     POST      |                 |
-|     POST      |                 |
-    
-  
-    - POST - /api/auth/register - registration of a new user, required parameters are[login, password, password confirmation, email]
+    - <h1>POST - /api/auth/register </h1> - registration of a new user, required parameters are[login, password, password confirmation, email]
     - POST - /api/auth/login- log in user, required parameters are [login, email,password]. Only users with a confirmed email can sign in
     - POST - /api/auth/logout- log out authorized user
     - POST - /api/auth/password-reset- send a reset link to user email, requiredparameter is [email]
