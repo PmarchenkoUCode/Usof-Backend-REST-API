@@ -40,13 +40,13 @@ StackOverflow REST API Clone
    #### User module: :white_check_mark: Это уже сделано
     - GET - /api/users- get all users
     - GET - /api/users/<user_id>- get specified user data
-    - POST - /api/users- create a new user, required parameters are [login, password,password confirmation, email, role]. 
-          This feature must be accessible only foradmins
+    - POST - /api/users- create a new user, required parameters are [login, password,password confirmation, email, role]. This feature must be accessible only foradmins
     - PATCH - /api/users/avatar- upload user avatar
     - PATCH - /api/users/<user_id>- update user data
     - DELETE - /api/users/<user_id>- delete user
     
-    #### Post module:
+   #### Post module:
     - GET - /api/posts - get all posts.This endpoint doesn't require any role, it ispublic. 
     If there are too many posts, you must implement pagination. Page size isup to you
+    - GET - /api/posts/<post_id>- get specified post data.Endpoint is public
     
